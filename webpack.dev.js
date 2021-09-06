@@ -20,7 +20,7 @@ module.exports = merge(common, {
     liveReload: true,
     hot: true, // Will cause conflicts with liveReload unless watchContentBase: true
     index: 'index.html',
-    port: 8000,
+    port: 8001,
     open: true, // Open a new tab in default browser
     watchOptions: {
       ignored: '/node_modules/', // Dont watch for changes in Node modules for better performance

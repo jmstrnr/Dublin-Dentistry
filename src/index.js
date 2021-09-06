@@ -1,7 +1,7 @@
 /*---Imports---*/
 import './styles/modern-normalize.css';
 import './styles/style.css';
-import './styles/queries.css';
+import './styles/queries.css'; 
 
 // To import the entire images directory
 function importAll(r) {
