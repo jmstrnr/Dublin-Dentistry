@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
@@ -21,12 +21,13 @@
 
   <body>
     <header id="home">
+      <!-- Navigation Bar -->
       <div class="row">
         <img class="logo" alt="dental tooth logo" src="./styles/images/greenlogo.png" />
 
         <div>
-          <input type="checkbox" class="navigation__checkbox" id="menu-toggle" />
-          <label for="menu-toggle" class="nav-toggle__button">
+          <input type="checkbox" class="navigation__checkbox" id="navbar-toggle" />
+          <label for="navbar-toggle" class="navigation__toggle-button">
             <span class="navigation__icon">&nbsp;</span>
           </label>
 
@@ -51,9 +52,10 @@
         </div>
       </div>
 
-      <div class="hero__text-box">
-        <h1 class="hero__head-line">Dublin Dental Practice</h1>
-        <h3 class="hero__sub-head-line">
+      <!-- Hero Image -->
+      <div class="hero__textbox">
+        <h1 class="hero__headline">Dublin Dental Practice</h1>
+        <h3 class="hero__sub-headline">
           Creating beautiful smiles since 1998. Visit our state of the art facility today!
         </h3>
         <a class="hero__button hero__button--animate" href="#contact">Book Your Appointment</a>
@@ -64,6 +66,7 @@
       <a class="scroll-arrow" href="#features">&darr;</a>
     </header>
 
+    <!-- Features -->
     <section class="features" id="features">
       <div class="row">
         <h2>Expert Dental Service &mdash; Book Today!</h2>
@@ -74,8 +77,8 @@
       </div>
 
       <div class="row features__flex">
-        <div class="box features-box">
-          <svg class="icon--big">
+        <div class="box features__box">
+          <svg class="features__icon">
             <use href="./styles/icons/symbol-defs.svg#icon-bubbles3"></use>
           </svg>
           <h3 class="features__h3">Free Initial Consultation</h3>
@@ -84,8 +87,8 @@
             consultation to new patients.
           </p>
         </div>
-        <div class="box features-box">
-          <svg class="icon--big">
+        <div class="box features__box">
+          <svg class="features__icon">
             <use href="./styles/icons/symbol-defs.svg#icon-location2"></use>
           </svg>
           <h3 class="features__h3">4 Convenient Locations</h3>
@@ -94,18 +97,18 @@
             clinics to choose from.
           </p>
         </div>
-        <div class="box features-box">
-          <svg class="icon--big">
+        <div class="box features__box">
+          <svg class="features__icon">
             <use href="./styles/icons/symbol-defs.svg#icon-trophy"></use>
           </svg>
-          <h3 class="features__h3">Experienced Dental Specialist</h3>
+          <h3 class="features__h3">Experienced Dental Specialists</h3>
           <p class="features__para">
-            Dr Example has spent x years as an orthodontist, and engages in yearly ongoing education
-            to stay sharp.
+            Our staff have spent many years honing their skills, and engage in yearly ongoing
+            education to stay sharp.
           </p>
         </div>
-        <div class="box features-box">
-          <svg class="icon--big">
+        <div class="box features__box">
+          <svg class="features__icon">
             <use href="./styles/icons/symbol-defs.svg#icon-happy"></use>
           </svg>
           <h3 class="features__h3">Friendly and Professional</h3>
@@ -117,44 +120,45 @@
       </div>
     </section>
 
-    <section class="section-price" id="services">
+    <!-- Invisalign Services -->
+    <section class="invisalign" id="services">
       <div class="row">
         <h2>Our Invisalign Offers</h2>
-        <p class="price__intro">
+        <p class="invisalign__intro">
           Many people are concerned by the thought of obvious braces having an impact on their
           social life. Clear aligners like Invisalign are very subtle and inobtrusive, making them
           the perfect solution.
         </p>
       </div>
-      <div class="row box price__flex">
-        <div class="price-box">
-          <div class="price">
+      <div class="row box invisalign__flex">
+        <div class="invisalign__box">
+          <div class="invisalign__header">
             <h3>Invisalign</h3>
-            <p class="price__plan">€4,500</p>
-            <p class="price__plan--month">Or 12 monthly payments of €375</p>
+            <p class="invisalign__price">€4,500</p>
+            <p class="invisalign__price--month">Or 12 monthly payments of €375</p>
           </div>
-          <div class="prices-details">
-            <ul class="price-info">
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+          <div>
+            <ul class="invisalign__list">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-star-full"></use>
                 </svg>
                 <span>For both top and bottom teeth</span>
               </li>
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-user-check"></use>
                 </svg>
                 <span>Free consultation and assessment</span>
               </li>
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-calendar"></use>
                 </svg>
                 <span>Monthly progress checkups</span>
               </li>
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-coin-euro"></use>
                 </svg>
                 <span>Treatment is tax deductible</span>
@@ -162,39 +166,39 @@
             </ul>
           </div>
           <div class="consultation">
-            <a class="consultation__btn consultation__btn--main hvr-radial-out" href="#contact"
+            <a class="consultation__btn hvr-radial-out" href="#contact"
               >Book Your Free Consultation</a
             >
           </div>
         </div>
-        <div class="price-box">
-          <div class="price">
+        <div class="invisalign__box">
+          <div class="invisalign__header">
             <h3>Invisalign (Lite)</h3>
-            <p class="price__plan">€3,000</p>
-            <p class="price__plan--month">Or 12 monthly payments of €250</p>
+            <p class="invisalign__price">€3,000</p>
+            <p class="invisalign__price--month">Or 12 monthly payments of €250</p>
           </div>
-          <div class="prices-details">
-            <ul class="price-info">
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+          <div>
+            <ul class="invisalign__list">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-star-half"></use>
                 </svg>
                 <span>For top or bottom teeth</span>
               </li>
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-user-check"></use>
                 </svg>
                 <span>Free consultation and assessment</span>
               </li>
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-calendar"></use>
                 </svg>
                 <span>Monthly progress checkups</span>
               </li>
-              <li class="price-info__li">
-                <svg class="price-info__icon">
+              <li class="invisalign__feature">
+                <svg class="invisalign__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-coin-euro"></use>
                 </svg>
                 <span>Treatment is tax deductible</span>
@@ -202,21 +206,24 @@
             </ul>
           </div>
           <div class="consultation">
-            <a class="consultation__btn consultation__btn--ghost hvr-radial-out" href="#contact">
+            <a class="consultation__btn hvr-radial-out" href="#contact">
               Book Your Free Consultation
             </a>
           </div>
         </div>
       </div>
 
+      <!-- FAQ -->
       <div class="faq">
-        <div class="row">
-          <h3>Frequently Asked Questions</h3>
+        <div class="row faq__container">
+          <h3 class="faq__header">Frequently Asked Questions</h3>
+
+          <!-- Accordian -->
           <div class="tabs">
             <div class="tab">
-              <input type="checkbox" class="faq__input" id="faq1" />
-              <label class="tab-label" for="faq1">What is the treatment process?</label>
-              <div class="tab-content">
+              <input type="checkbox" class="tab__input" id="tab1" />
+              <label class="tab__label" for="tab1">What is the treatment process?</label>
+              <div class="tab__content">
                 <p>
                   Invisalign treatment starts with a consultation with an Invisalign-trained doctor.
                   Your Invisalign Doctor will evaluate your smile and then map out a precise,
@@ -233,12 +240,12 @@
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" class="faq__input" id="faq2" />
-              <label class="tab-label" for="faq2"
+              <input type="checkbox" class="tab__input" id="tab2" />
+              <label class="tab__label" for="tab2"
                 >How is Invisalign treatment different than other teeth-straightening
                 options?</label
               >
-              <div class="tab-content">
+              <div class="tab__content">
                 <p>
                   Invisalign treatment is the most advanced clear aligner system in the world,
                   backed by more than two decades of innovation.
@@ -256,9 +263,9 @@
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" class="faq__input" id="faq3" />
-              <label class="tab-label" for="faq3">What’s the best way to clean my aligners?</label>
-              <div class="tab-content">
+              <input type="checkbox" class="tab__input" id="tab3" />
+              <label class="tab__label" for="tab3">What’s the best way to clean my aligners?</label>
+              <div class="tab__content">
                 <p>
                   The best way to clean your aligners is by brushing and rinsing them in lukewarm
                   water and using the Invisalign Cleaning Crystals or special cleaning tablets. It’s
@@ -268,11 +275,11 @@
               </div>
             </div>
             <div class="tab">
-              <input type="checkbox" class="faq__input" id="faq4" />
-              <label class="tab-label" for="faq4"
+              <input type="checkbox" class="tab__input" id="tab4" />
+              <label class="tab__label" for="tab4"
                 >What if I lose or break an aligner. What should I do?</label
               >
-              <div class="tab-content">
+              <div class="tab__content">
                 <p>
                   If you lose or break an Invisalign aligner, immediately let your Invisalign Doctor
                   know. Your Invisalign Doctor will work with you to ensure you stay on-track with
@@ -286,77 +293,80 @@
       </div>
     </section>
 
-    <section class="app" id="app">
+    <!-- App -->
+    <section id="app">
       <div class="row">
-        <h2 class="app__intro">Teach your child to brush &mdash; download our app today!</h2>
-        <div class="row app-box">
-          <div class="app-box__left">
+        <h2>Teach your child to brush &mdash; download our app today!</h2>
+        <div class="row app">
+          <div class="app__left">
             <img src="./styles/images/app.jpg" alt="Teeth brushing app" class="app__photo" />
           </div>
-          <div class="app-box__right">
-            <div class="app-steps">
-              <div>&rArr;</div>
+          <div class="app__right">
+            <div class="app__steps">
+              <div class="app__arrow">&rArr;</div>
               <p>
                 Use the button below to signup for the app. You can then download the app via Google
                 Play or the Apple App Store.
               </p>
             </div>
-            <div class="app-steps">
-              <div>&rArr;</div>
+            <div class="app__steps">
+              <div class="app__arrow">&rArr;</div>
               <p>
                 The app will instruct your child on the correct brushing procedure, and on how long
                 they should spend brushing.
               </p>
             </div>
-            <div class="app-steps">
-              <div>&rArr;</div>
+            <div class="app__steps">
+              <div class="app__arrow">&rArr;</div>
               <p>
                 Every time they follow the apps instructions, they earn points and gold stars,
                 building good dental habits.
               </p>
             </div>
             <div class="row app__download">
-              <button class="app__button hvr-pulse js-open">Download App</button>
+              <button class="app__button hvr-pulse js-open-popup">Download App</button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="app-popup__container js-app-popup">
-      <div class="app-popup">
-        <a href="#app" class="app-popup__close-btn js-close">&times;</a>
+    <!-- App Popup -->
+    <section class="app-popup">
+      <div class="app-popup__container">
+        <a href="#app" class="app-popup__close-btn js-close-popup">&times;</a>
         <div class="app-popup__header">
-          <h3>Download Our App</h3>
+          <h3 class="app-popup__headline">Download Our App</h3>
         </div>
         <div class="app-popup__content">
           <p>Submit your name and email and you will be sent a link to download our app.</p>
-          <form class="app-popup__form">
-            <div>
-              <label for="app-username">Name</label>
+          <form class="popup-form">
+            <div class="popup-form__fieldset">
+              <label class="popup-form__label" for="app-username">Name</label>
               <input
                 type="text"
                 id="app-username"
                 placeholder="Enter Name"
-                class="app-popup__form-input"
+                class="popup-form__input"
               />
             </div>
-            <div>
-              <label for="app-user-email">Email</label>
+            <div class="popup-form__fieldset">
+              <label class="popup-form__label" for="app-user-email">Email</label>
               <input
                 type="email"
                 id="app-user-email"
                 placeholder="Enter Email"
-                class="app-popup__form-input"
+                class="popup-form__input"
               />
             </div>
-            <input type="submit" value="Submit" class="app-popup__submit-btn" />
+            <input type="submit" value="Submit" class="popup-form__submit-btn" />
           </form>
         </div>
       </div>
     </section>
 
-    <section class="new-loc" id="locations">
+    <!-- New-Location -->
+    <section class="new-loc">
       <div class="row">
         <h2>New Blackrock Location</h2>
         <p class="new-loc__para">
@@ -364,146 +374,163 @@
         </p>
       </div>
       <div>
-        <ul class="new-loc__images clearfix">
-          <li>
+        <ul class="new-loc__imagelist clearfix">
+          <li class="new-loc__imageli">
             <figure class="blackrock-photo">
               <img
+                class="blackrock-photo__img"
                 src="./styles/images/newoffice1-1280.jpg"
                 alt="Dentist practice operating chair"
               />
             </figure>
           </li>
-          <li>
-            <figure class="blackrock-photo">
-              <img src="./styles/images/newoffice2-1280.jpg" alt="Dentist chair and tools" />
-            </figure>
-          </li>
-          <li>
+          <li class="new-loc__imageli">
             <figure class="blackrock-photo">
               <img
+                class="blackrock-photo__img"
+                src="./styles/images/newoffice2-1280.jpg"
+                alt="Dentist chair and tools"
+              />
+            </figure>
+          </li>
+          <li class="new-loc__imageli">
+            <figure class="blackrock-photo">
+              <img
+                class="blackrock-photo__img"
                 src="./styles/images/newoffice3-1280.jpg"
                 alt="Dental practice chair and tools top view"
               />
             </figure>
           </li>
-          <li>
+          <li class="new-loc__imageli">
             <figure class="blackrock-photo">
-              <img src="./styles/images/newoffice4-1280.jpg" alt="Dental surgery block equipment" />
+              <img
+                class="blackrock-photo__img"
+                src="./styles/images/newoffice4-1280.jpg"
+                alt="Dental surgery block equipment"
+              />
             </figure>
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="section-locations">
+    <!-- Locations -->
+    <section class="locations" id="locations">
       <div class="row">
-        <h2>We currently have clinics in these locations!</h2>
+        <h2 class="locations__intro">We currently have clinics in these locations!</h2>
         <div class="row locations__flex">
-          <div class="box locations">
+          <div class="box location">
             <img
               src="./styles/images/rathmines.jpg"
               alt="Rathmines town hall"
-              class="locations__photo"
+              class="location__photo"
             />
             <h3>Rathmines</h3>
             <ul class="contact-info">
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-location2"></use>
                 </svg>
                 <span>Example Street A</span>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-phone"></use>
                 </svg>
-                <a href="tel:+123-456-7890">123-456-7890</a>
+                <a class="contact-info__link" href="tel:+123-456-7890">123-456-7890</a>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-mail4"></use>
                 </svg>
-                <a href="mailto:rathmines@dental.com">rathmines@dental.com</a>
+                <a class="contact-info__link" href="mailto:rathmines@dental.com"
+                  >rathmines@dental.com</a
+                >
               </li>
             </ul>
           </div>
-          <div class="box locations">
-            <img src="./styles/images/swords.jpg" alt="Swords town hall" class="locations__photo" />
+          <div class="box location">
+            <img src="./styles/images/swords.jpg" alt="Swords town hall" class="location__photo" />
             <h3>Swords</h3>
             <ul class="contact-info">
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-location2"></use>
                 </svg>
                 <span>Example Street B</span>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-phone"></use>
                 </svg>
-                <a href="tel:+213-456-7890">213-456-7890</a>
+                <a class="contact-info__link" href="tel:+213-456-7890">213-456-7890</a>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-mail4"></use>
                 </svg>
-                <a href="mailto:swords@dental.com">swords@dental.com</a>
+                <a class="contact-info__link" href="mailto:swords@dental.com">swords@dental.com</a>
               </li>
             </ul>
           </div>
-          <div class="box locations">
+          <div class="box location">
             <img
               src="./styles/images/tallaght.png"
               alt="Tallaght main street"
-              class="locations__photo"
+              class="location__photo"
             />
             <h3>Tallaght</h3>
             <ul class="contact-info">
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-location2"></use>
                 </svg>
                 <span>Example Street C</span>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-phone"></use>
                 </svg>
-                <a href="tel:+231-456-7890">231-456-7890</a>
+                <a class="contact-info__link" href="tel:+231-456-7890">231-456-7890</a>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-mail4"></use>
                 </svg>
-                <a href="mailto:tallaght@dental.com">tallaght@dental.com</a>
+                <a class="contact-info__link" href="mailto:tallaght@dental.com"
+                  >tallaght@dental.com</a
+                >
               </li>
             </ul>
           </div>
-          <div class="box locations">
+          <div class="box location">
             <img
               src="./styles/images/blackrock.jpg"
               alt="Blackrock shopping centre"
-              class="locations__photo"
+              class="location__photo"
             />
             <h3>Blackrock</h3>
             <ul class="contact-info">
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-location2"></use>
                 </svg>
                 <span>Example Street D</span>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-phone"></use>
                 </svg>
-                <a href="tel:+312-456-7890">312-456-7890</a>
+                <a class="contact-info__link" href="tel:+312-456-7890">312-456-7890</a>
               </li>
-              <li>
+              <li class="contact-info__li">
                 <svg class="contact-info__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-mail4"></use>
                 </svg>
-                <a href="mailto:blackrock@dental.com">blackrock@dental.com</a>
+                <a class="contact-info__link" href="mailto:blackrock@dental.com"
+                  >blackrock@dental.com</a
+                >
               </li>
             </ul>
           </div>
@@ -511,7 +538,8 @@
       </div>
     </section>
 
-    <section class="section-treatments" id="section-treatments">
+    <!-- Treatments -->
+    <section id="treatments">
       <div class="row">
         <h2>View Our Most Popular Treatments</h2>
       </div>
@@ -521,11 +549,13 @@
           <div class="treatment">
             <div class="treatment__card treatment__card--front">
               <div class="card__photo card__photo--1">&nbsp;</div>
-              <h4 class="card-front__text">Root Canal Treatment</h4>
+              <h4 class="card__text--front">Root Canal Treatment</h4>
             </div>
             <div class="treatment__card treatment__card--back card__back--gradient">
               <div class="card__back--box">
-                <p>We can treat infections at the centre of a tooth and relieve your pain</p>
+                <p class="card__text--back">
+                  We can treat infections at the centre of a tooth and relieve your pain
+                </p>
                 <a href="#popup" class="card__back--button hvr-outline-out"> LEARN MORE </a>
               </div>
             </div>
@@ -535,11 +565,13 @@
           <div class="treatment">
             <div class="treatment__card treatment__card--front">
               <div class="card__photo card__photo--2">&nbsp;</div>
-              <h4 class="card-front__text">Tooth Extraction</h4>
+              <h4 class="card__text--front">Tooth Extraction</h4>
             </div>
             <div class="treatment__card treatment__card--back card__back--gradient">
               <div class="card__back--box">
-                <p>We can extract any teeth that are too damaged or loose to be saved</p>
+                <p class="card__text--back">
+                  We can extract any teeth that are too damaged or loose to be saved
+                </p>
                 <a href="#popup" class="card__back--button hvr-outline-out"> LEARN MORE </a>
               </div>
             </div>
@@ -549,11 +581,13 @@
           <div class="treatment">
             <div class="treatment__card treatment__card--front">
               <div class="card__photo card__photo--3">&nbsp;</div>
-              <h4 class="card-front__text">Teeth Whitening</h4>
+              <h4 class="card__text--front">Teeth Whitening</h4>
             </div>
             <div class="treatment__card treatment__card--back card__back--gradient">
               <div class="card__back--box">
-                <p>Our dental hygienists will remove plaque and enamel for a brighter smile</p>
+                <p class="card__text--back">
+                  Our dental hygienists will remove plaque and enamel for a brighter smile
+                </p>
                 <a href="#popup" class="card__back--button hvr-outline-out"> LEARN MORE </a>
               </div>
             </div>
@@ -562,17 +596,18 @@
       </div>
 
       <div class="row">
-        <div class="treatment__learn">
-          <a href="#">View full list of treatments &rarr;</a>
+        <div class="view-list">
+          <a class="view-list__link" href="#">View full list of treatments &rarr;</a>
         </div>
       </div>
     </section>
 
+    <!-- Treatment Popup -->
     <section class="popup" id="popup">
       <div class="popup__box">
         <div class="popup__left-column">
           <h2>Got dental problems?</h2>
-          <h3>We can put a smile on your face!</h3>
+          <h3 class="popup__sub-headline">We can put a smile on your face!</h3>
           <p class="popup__paragraph">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aliquam laudantium,
             libero magnam dolorem excepturi nesciunt recusandae exercitationem voluptates
@@ -587,141 +622,147 @@
           <a href="#contact" class="hero__button hvr-pulse">Get in touch</a>
         </div>
         <div class="popup__right-column">
-          <a href="#section-treatments" class="popup__exit">&times;</a>
+          <a href="#treatments" class="popup__exit">&times;</a>
         </div>
       </div>
     </section>
 
-    <section class="section-testimonials">
+    <!-- Testimonials -->
+    <section class="testimonials">
       <div class="row">
         <h2>See what our happy patients have to say</h2>
+
+        <!-- Slideshow/Carousel -->
         <div class="row slideshow__container">
           <div class="slideshow__slide">
-            <blockquote>
+            <blockquote class="testimonials__quotes">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi consequuntur tempora
-              praesentium unde ullam ea optio blanditiis placeat impedit! In debitis culpa, quia
-              possimus deleniti, nostrum totam cumque aut quidem delectus dolores distinctio.
+              praesentium unde ullam ea laudantium optio blanditiis placeat impedit! In debitis
+              culpa, nisi nostrum quia possimus deleniti, nostrum totam cumque aut quidem delectus
+              dolores distinctio.
             </blockquote>
-            <cite class="section-testimonials__person">
-              <img src="./styles/images/user1.jpg" alt="30 year old white man smiling" />
+            <cite class="testimonials__person">
+              <img class="testimonials__img" src="./styles/images/user1.jpg" alt="smiling man" />
               -Rory Sinnott
             </cite>
           </div>
           <div class="slideshow__slide">
-            <blockquote>
+            <blockquote class="testimonials__quotes">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illo placeat ipsum,
               voluptatem nihil, blanditiis alias nemo sed error consectetur accusamus laudantium
               nisi nostrum totam. Sapiente exercitationem deleniti vero facere harum sint ducimus
               natus minima!
             </blockquote>
-            <cite class="section-testimonials__person">
-              <img src="./styles/images/user2.jpg" alt="30 year old white woman smiling" />
+            <cite class="testimonials__person">
+              <img class="testimonials__img" src="./styles/images/user2.jpg" alt="smiling woman" />
               -Mary Doyle
             </cite>
           </div>
           <div class="slideshow__slide">
-            <blockquote>
+            <blockquote class="testimonials__quotes">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptas? Amet,
               iusto voluptatum? Minus maiores obcaecati numquam voluptatum laborum quidem culpa
               commodi quam omnis veritatis, excepturi illum hic distinctio. Facilis quae delectus
               alias!
             </blockquote>
-            <cite class="section-testimonials__person">
-              <img src="./styles/images/user3.jpg" alt="25 year old white man smiling" />
+            <cite class="testimonials__person">
+              <img class="testimonials__img" src="./styles/images/user3.jpg" alt="smiling man" />
               -Philip Murphy
             </cite>
           </div>
           <div class="row slideshow__controls">
-            <a class="prev">&#10094;</a>
-            <div class="dot-container">
-              <span class="dot slide--1"></span>
-              <span class="dot slide--2"></span>
-              <span class="dot slide--3"></span>
+            <a class="prev-btn">&#10094;</a>
+            <div class="slideshow__indicator-box">
+              <span class="slideshow__indicator slideshow__indicator--1"></span>
+              <span class="slideshow__indicator slideshow__indicator--2"></span>
+              <span class="slideshow__indicator slideshow__indicator--3"></span>
             </div>
-            <a class="next">&#10095;</a>
+            <a class="next-btn">&#10095;</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="form" id="contact">
+    <!-- Contact-Form -->
+    <section id="contact">
       <div class="row">
         <h2>Get in touch, we are eager to help!</h2>
       </div>
       <div class="row">
         <form method="post" action="#" class="contact-form">
-          <label for="name">Name*</label>
-          <div class="js-input">
+          <label class="contact-form__label" for="name">Name*</label>
+          <div>
             <input type="text" name="name" id="name" placeholder="Your name" />
             <p class="error-message">Error</p>
           </div>
 
-          <label for="email">Email*</label>
-          <div class="js-input">
-            <input type="email" name="email" id="email" placeholder="Your email" />
+          <label class="contact-form__label" for="email">Email*</label>
+          <div>
+            <!-- input type is set to text instead of email so I can use custom validation -->
+            <input type="text" name="email" id="email" placeholder="Your email" />
             <p class="error-message">Error</p>
           </div>
 
-          <label for="which-clinic">Your closest clinic?</label>
+          <label class="contact-form__label" for="which-clinic">Your closest clinic?</label>
           <select name="which-clinic" id="which-clinic">
-            <option value="rathmines" selected>Rathmines</option>
+            <option value="" selected disabled>Please choose a clinic</option>
+            <option value="rathmines">Rathmines</option>
             <option value="swords">Swords</option>
             <option value="tallaght">Tallaght</option>
             <option value="blackrock">Blackrock</option>
           </select>
 
-          <label for="date">Appointment Date</label>
+          <label class="contact-form__label" for="date">Appointment date?</label>
           <input type="date" name="date" id="date" />
 
-          <label>How can we help you?</label>
+          <label class="contact-form__label">How can we help you?</label>
           <textarea name="message" placeholder="Your message"></textarea>
 
-          <label class="nbsp">&nbsp;</label>
           <div class="contact-form__checkbox">
             <input type="checkbox" name="newsletter" id="newsletter" checked />
             <span class="contact-form__newsletter"> I would like to receive special offers </span>
           </div>
 
-          <label class="nbsp">&nbsp;</label>
-          <input type="submit" value="Send message" class="submit hvr-pulse" />
+          <input type="submit" value="Send message" class="contact-form__submit submit hvr-pulse" />
         </form>
       </div>
     </section>
 
+    <!-- Footer -->
     <footer>
       <div class="row footer__flex">
         <div>
-          <ul class="footer-nav">
-            <li class="footer__link"><a href="#">Privacy Policy</a></li>
-            <li class="footer__link"><a href="#">Terms and Conditions</a></li>
+          <ul class="site-links">
+            <li class="footer__li"><a class="footer__link" href="#">Privacy Policy</a></li>
+            <li class="footer__li"><a class="footer__link" href="#">Terms and Conditions</a></li>
           </ul>
         </div>
         <div>
           <ul class="social-links">
-            <li class="footer__link">
-              <a href="https://www.facebook.com/">
-                <svg class="social-links__facebook footer__icon">
+            <li class="footer__li">
+              <a class="footer__link" href="https://www.facebook.com/">
+                <svg class="social-link--facebook footer__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-facebook2"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer__link">
-              <a href="https://twitter.com/?lang=en">
-                <svg class="social-links__twitter footer__icon">
+            <li class="footer__li">
+              <a class="footer__link" href="https://twitter.com/?lang=en">
+                <svg class="social-link--twitter footer__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer__link">
-              <a href="https://www.instagram.com/">
-                <svg class="social-links__instagram footer__icon">
+            <li class="footer__li">
+              <a class="footer__link" href="https://www.instagram.com/">
+                <svg class="social-link--instagram footer__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer__link">
-              <a href="https://ie.linkedin.com/">
-                <svg class="social-links__linkedin footer__icon">
+            <li class="footer__li">
+              <a class="footer__link" href="https://ie.linkedin.com/">
+                <svg class="social-link--linkedin footer__icon">
                   <use href="./styles/icons/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>

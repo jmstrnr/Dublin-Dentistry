@@ -1,3 +1,4 @@
+/*---------------------------------------------------------------------------------*/
 /*---1800px---*/
 @media only screen and (min-width: 1800px) {
   html {
@@ -8,6 +9,7 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
 /*---1200px---*/
 @media only screen and (max-width: 1200px) {
   .navigation__link:visited,
@@ -15,7 +17,7 @@
     font-size: 2rem;
     padding: 1rem 0;
   }
-  .hero__text-box {
+  .hero__textbox {
     width: 100%;
     padding: 0 2%;
   }
@@ -25,10 +27,10 @@
   .app__photo {
     width: 70%;
   }
-  .app-steps div {
+  .app__arrow {
     margin-bottom: 3.8rem;
   }
-  .contact-info li {
+  .contact-info__li {
     font-size: 140%;
   }
   .contact-info__icon {
@@ -47,6 +49,7 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
 /*---900px---*/
 @media only screen and (max-width: 900px) {
   html {
@@ -94,18 +97,18 @@
     width: 80%;
     margin: 0 10%;
   }
-  .price__flex {
+  .invisalign__flex {
     flex-direction: column;
   }
-  .price-box {
+  .invisalign__box {
     display: flex;
     margin-bottom: 3rem;
   }
-  .price-info__li {
+  .invisalign__feature {
     text-align: left;
     font-size: 200%;
   }
-  .price-info__icon {
+  .invisalign__icon {
     margin: 0 auto;
     display: block;
   }
@@ -116,7 +119,7 @@
     width: 90%;
     margin: 2rem auto;
   }
-  .app-box {
+  .app {
     margin-top: 2.5rem;
     flex-direction: column;
   }
@@ -124,25 +127,25 @@
     width: 50%;
     margin: 4rem 0;
   }
-  .app-box__left {
+  .app__left {
     justify-content: center;
     width: 90%;
     margin: 0 5%;
   }
-  .app-box__right {
+  .app__right {
     width: 80%;
     margin: 0 10%;
   }
-  .app-steps {
+  .app__steps {
     margin-bottom: 4rem;
   }
-  .app-steps:first-of-type {
+  .app__steps:first-of-type {
     margin-top: 3rem;
   }
-  .app-steps:last-of-type {
+  .app__steps:last-of-type {
     margin-bottom: 6rem;
   }
-  .app-steps p {
+  .app__steps p {
     font-size: 180%;
   }
   .app__download {
@@ -151,14 +154,14 @@
   .locations__flex {
     flex-direction: column;
   }
-  .locations {
+  .location {
     width: 80%;
     margin: 1% 10%;
   }
-  .new-loc__images li {
+  .new-loc__imageli {
     width: 50%;
   }
-  .contact-info li {
+  .contact-info__li {
     font-size: 200%;
   }
   .contact-info__icon {
@@ -187,33 +190,21 @@
   .popup__left-column {
     width: 100%;
   }
-  .section-testimonials__person {
+  .testimonials__person {
     font-size: 250%;
     text-align: center;
   }
   .contact-form {
     margin-top: 3rem;
   }
-  .contact-form__rows {
-    display: block;
-    margin: 1.5rem 0;
-  }
-  .nbsp {
-    display: none;
-  }
-  .contact-form__checkbox {
-    grid-column: 1 / 3;
-    text-align: center;
-  }
   .contact-form__newsletter {
     font-size: 100%;
   }
-  input.submit {
+  .contact-form__submit {
     font-size: 120%;
-    grid-column: 1 / 3;
     margin: 0 15%;
   }
-  .footer-nav {
+  .site-links {
     text-align: center;
   }
   .social-links {
@@ -221,13 +212,14 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
 /*---600x---*/
 @media only screen and (max-width: 600px) {
   html {
     font-size: 46%;
   }
   .row,
-  .hero__text-box {
+  .hero__textbox {
     padding: 0 4%;
   }
   section {
@@ -246,12 +238,12 @@
   .features__copy {
     width: 100%;
   }
-  .price-box {
+  .invisalign__box {
     flex-direction: column;
     text-align: center;
     margin: 0 auto 2rem auto;
   }
-  .price-info__li {
+  .invisalign__feature {
     text-align: center;
   }
   .treatment {
@@ -272,7 +264,7 @@
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
   }
-  .card-front__text {
+  .card__text--front {
     padding-bottom: 0;
   }
   .card__back--gradient {
@@ -299,7 +291,7 @@
   .contact-form {
     width: 90%;
   }
-  input.submit {
+  .contact-form__submit {
     margin: 0 10%;
     width: 80%;
   }
@@ -309,7 +301,7 @@
   .footer__flex {
     flex-direction: column;
   }
-  .footer-nav {
+  .site-links {
     margin-bottom: 4rem;
   }
   .footer__para {
@@ -317,6 +309,7 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
 /*---400px---*/
 @media only screen and (max-width: 400px) {
   html {
