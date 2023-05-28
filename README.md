@@ -1,4 +1,4 @@
-# Dublin Dentistry project.
+# Dublin Dentistry
 
 Hosted at: https://dublin-dentistry-43ff09.netlify.app/
 
